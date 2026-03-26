@@ -28,7 +28,7 @@ import requests
 MIN_WORD_COUNT  = 500   # pages below this are discarded
 REQUEST_DELAY   = 1.5   # seconds between requests (be polite)
 REQUEST_TIMEOUT = 15    # seconds before giving up on a URL
-OUTPUT_JSONL    = Path("./data/crawler_output.jsonl")
+OUTPUT_JSONL    = Path("./data/samples/crawler_output.jsonl")
 
 headers = {
     'User-Agent': 'WDM_Project_Bot/1.0 (emilie.poupat@edu.devinci.fr)',

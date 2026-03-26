@@ -23,9 +23,9 @@ import pandas as pd
 # ─────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────
-INPUT_JSONL    = Path("./data/crawler_output.jsonl")
-OUTPUT_CSV     = Path("./data/extracted_knowledge.csv")
-RELATIONS_CSV  = Path("./data/extracted_relations.csv")
+INPUT_JSONL    = Path("./data/samples/crawler_output.jsonl")
+OUTPUT_CSV     = Path("./data/samples/extracted_knowledge.csv")
+RELATIONS_CSV  = Path("./data/samples/extracted_relations.csv")
 
 # Entity labels we care about — tuned for Olympics content
 TARGET_LABELS = {
