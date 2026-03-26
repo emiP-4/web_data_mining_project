@@ -25,9 +25,9 @@ PROP = Namespace("http://olympics.kg/property/")
 WD = Namespace("http://www.wikidata.org/entity/")
 
 # Define file paths based on the project structure
-INPUT_ENTITIES = Path("data/extracted_knowledge.csv")
-INPUT_RELATIONS = Path("data/extracted_relations.csv")
-OUTPUT_DIR = Path("kg_artifacts")
+INPUT_ENTITIES = Path("./data/extracted_knowledge.csv")
+INPUT_RELATIONS = Path("./data/extracted_relations.csv")
+OUTPUT_DIR = Path("./data/kg_artifacts")
 OUTPUT_GRAPH = OUTPUT_DIR / "initial_graph.ttl"
 
 def clean_uri(text: str) -> str:
