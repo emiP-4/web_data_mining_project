@@ -1,0 +1,200 @@
+@prefix ont: <http://olympics.kg/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <http://olympics.kg/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ont:DATE a owl:Class ;
+    rdfs:label "DATE"@en .
+
+ont:EVENT a owl:Class ;
+    rdfs:label "EVENT"@en .
+
+ont:GPE a owl:Class ;
+    rdfs:label "GPE"@en .
+
+ont:LOC a owl:Class ;
+    rdfs:label "LOC"@en .
+
+ont:ORG a owl:Class ;
+    rdfs:label "ORG"@en .
+
+ont:PERSON a owl:Class ;
+    rdfs:label "PERSON"@en .
+
+ont:PRODUCT a owl:Class ;
+    rdfs:label "PRODUCT"@en .
+
+ont:WORK_OF_ART a owl:Class ;
+    rdfs:label "WORK_OF_ART"@en .
+
+prop: a owl:ObjectProperty ;
+    rdfs:label ""@en .
+
+prop:accuse a owl:ObjectProperty ;
+    rdfs:label "accuse"@en .
+
+prop:admit a owl:ObjectProperty ;
+    rdfs:label "admit"@en .
+
+prop:announce a owl:ObjectProperty ;
+    rdfs:label "announce"@en .
+
+prop:appoint a owl:ObjectProperty ;
+    rdfs:label "appoint"@en .
+
+prop:approve a owl:ObjectProperty ;
+    rdfs:label "approve"@en .
+
+prop:ask a owl:ObjectProperty ;
+    rdfs:label "ask"@en .
+
+prop:attend a owl:ObjectProperty ;
+    rdfs:label "attend"@en .
+
+prop:award a owl:ObjectProperty ;
+    rdfs:label "award"@en .
+
+prop:ban a owl:ObjectProperty ;
+    rdfs:label "ban"@en .
+
+prop:be a owl:ObjectProperty ;
+    rdfs:label "be"@en .
+
+prop:become a owl:ObjectProperty ;
+    rdfs:label "become"@en .
+
+prop:boycott a owl:ObjectProperty ;
+    rdfs:label "boycott"@en .
+
+prop:bypass a owl:ObjectProperty ;
+    rdfs:label "bypass"@en .
+
+prop:channel a owl:ObjectProperty ;
+    rdfs:label "channel"@en .
+
+prop:cite a owl:ObjectProperty ;
+    rdfs:label "cite"@en .
+
+prop:commission a owl:ObjectProperty ;
+    rdfs:label "commission"@en .
+
+prop:congratulate a owl:ObjectProperty ;
+    rdfs:label "congratulate"@en .
+
+prop:conquer a owl:ObjectProperty ;
+    rdfs:label "conquer"@en .
+
+prop:create a owl:ObjectProperty ;
+    rdfs:label "create"@en .
+
+prop:describe a owl:ObjectProperty ;
+    rdfs:label "describe"@en .
+
+prop:disqualify a owl:ObjectProperty ;
+    rdfs:label "disqualify"@en .
+
+prop:draft a owl:ObjectProperty ;
+    rdfs:label "draft"@en .
+
+prop:endorse a owl:ObjectProperty ;
+    rdfs:label "endorse"@en .
+
+prop:establish a owl:ObjectProperty ;
+    rdfs:label "establish"@en .
+
+prop:form a owl:ObjectProperty ;
+    rdfs:label "form"@en .
+
+prop:found a owl:ObjectProperty ;
+    rdfs:label "found"@en .
+
+prop:get a owl:ObjectProperty ;
+    rdfs:label "get"@en .
+
+prop:head a owl:ObjectProperty ;
+    rdfs:label "head"@en .
+
+prop:hold a owl:ObjectProperty ;
+    rdfs:label "hold"@en .
+
+prop:host a owl:ObjectProperty ;
+    rdfs:label "host"@en .
+
+prop:improve a owl:ObjectProperty ;
+    rdfs:label "improve"@en .
+
+prop:introduce a owl:ObjectProperty ;
+    rdfs:label "introduce"@en .
+
+prop:invite a owl:ObjectProperty ;
+    rdfs:label "invite"@en .
+
+prop:name a owl:ObjectProperty ;
+    rdfs:label "name"@en .
+
+prop:offer a owl:ObjectProperty ;
+    rdfs:label "offer"@en .
+
+prop:open a owl:ObjectProperty ;
+    rdfs:label "open"@en .
+
+prop:order a owl:ObjectProperty ;
+    rdfs:label "order"@en .
+
+prop:organise a owl:ObjectProperty ;
+    rdfs:label "organise"@en .
+
+prop:produce a owl:ObjectProperty ;
+    rdfs:label "produce"@en .
+
+prop:provide a owl:ObjectProperty ;
+    rdfs:label "provide"@en .
+
+prop:publish a owl:ObjectProperty ;
+    rdfs:label "publish"@en .
+
+prop:recognise a owl:ObjectProperty ;
+    rdfs:label "recognise"@en .
+
+prop:recommend a owl:ObjectProperty ;
+    rdfs:label "recommend"@en .
+
+prop:replace a owl:ObjectProperty ;
+    rdfs:label "replace"@en .
+
+prop:shift a owl:ObjectProperty ;
+    rdfs:label "shift"@en .
+
+prop:sign a owl:ObjectProperty ;
+    rdfs:label "sign"@en .
+
+prop:skip a owl:ObjectProperty ;
+    rdfs:label "skip"@en .
+
+prop:sponsor a owl:ObjectProperty ;
+    rdfs:label "sponsor"@en .
+
+prop:surpass a owl:ObjectProperty ;
+    rdfs:label "surpass"@en .
+
+prop:suspend a owl:ObjectProperty ;
+    rdfs:label "suspend"@en .
+
+prop:take a owl:ObjectProperty ;
+    rdfs:label "take"@en .
+
+prop:talk a owl:ObjectProperty ;
+    rdfs:label "talk"@en .
+
+prop:urge a owl:ObjectProperty ;
+    rdfs:label "urge"@en .
+
+prop:want a owl:ObjectProperty ;
+    rdfs:label "want"@en .
+
+prop:warn a owl:ObjectProperty ;
+    rdfs:label "warn"@en .
+
+prop:win a owl:ObjectProperty ;
+    rdfs:label "win"@en .
+

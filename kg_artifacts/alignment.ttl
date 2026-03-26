@@ -1,0 +1,30 @@
+@prefix oly: <http://olympics.kg/entity/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+oly:Athletics owl:sameAs wd:Q542 .
+
+oly:Gymnastics owl:sameAs wd:Q462 .
+
+oly:International_Olympic_Committee owl:sameAs wd:Q23319 .
+
+oly:Michael_Phelps owl:sameAs wd:Q32620 .
+
+oly:Mikaela_Shiffrin owl:sameAs wd:Q1484620 .
+
+oly:Olympic_gold_medal owl:sameAs wd:Q152433 .
+
+oly:Paris owl:sameAs wd:Q90 .
+
+oly:Simone_Biles owl:sameAs wd:Q35600 .
+
+oly:Summer_Olympic_Games owl:sameAs wd:Q159821 .
+
+oly:Swimming owl:sameAs wd:Q31920 .
+
+oly:United_States owl:sameAs wd:Q30 .
+
+oly:Usain_Bolt owl:sameAs wd:Q1189 .
+
+oly:Winter_Olympic_Games owl:sameAs wd:Q82414 .
+
