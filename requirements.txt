@@ -1,0 +1,22 @@
+# For Web Crawling & Cleaning
+httpx==0.27.0
+trafilatura==1.8.1
+requests==2.31.0
+
+# For Information Extraction
+spacy==3.7.4
+pandas==2.2.1
+
+# For KB Construction & Semantic Web
+rdflib==7.0.0
+SPARQLWrapper==2.0.0
+
+# For Reasoning (SWRL)
+owlready2==0.45
+
+# For Knowledge Graph Embeddings & Visualization
+pykeen==1.10.2
+torch==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.1.post1
+matplotlib==3.8.3
