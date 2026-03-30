@@ -3,7 +3,7 @@
 This project is a complete, end-to-end Web Mining and Semantics pipeline. It extracts unstructured data about the Olympic Games from the web, structures it into an RDF Knowledge Graph, aligns it with Linked Open Data (Wikidata), applies logical reasoning (SWRL), trains Knowledge Graph Embeddings (KGE), and enables natural language querying via a local LLM (RAG).
 
 **Course:** Web Mining & Semantics  
-**Author:** Emilie Poupat  
+**Author:** Emilie Poupat and Justine SCHUTTERLE
 **License:** MIT  
 
 ---
