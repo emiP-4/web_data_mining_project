@@ -147,9 +147,6 @@ prop:organise a owl:ObjectProperty ;
 prop:produce a owl:ObjectProperty ;
     rdfs:label "produce"@en .
 
-prop:provide a owl:ObjectProperty ;
-    rdfs:label "provide"@en .
-
 prop:publish a owl:ObjectProperty ;
     rdfs:label "publish"@en .
 
