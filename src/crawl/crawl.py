@@ -35,7 +35,7 @@ headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
 }
 
-# Preset seed URLs by domain (edit / extend freely)
+# Preset seed URLs by domain
 DOMAIN_SEEDS = {
     "summer": [
         "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
