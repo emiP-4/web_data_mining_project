@@ -28,8 +28,12 @@ def main():
     # model.entity_representations[0] holds the entity embedding layer
     print("Extracting entity embeddings...")
     embeddings = model.entity_representations[0](indices=None).detach().cpu().numpy()
-    
-    print(f"Loaded {embeddings.shape[0]} entities with dimension {embeddings.shape[1]}.")
+   
+    if np.iscomplexobj(embeddings):
+        print("Complex embeddings detected (RotatE). Separating real and imaginary parts...")
+        embeddings = np.concatenate([np.real(embeddings), np.imag(embeddings)], axis=1)
+
+    print(f"Loaded {embeddings.shape[0]} entities for t-SNE.")
     
     # Configure and run t-SNE
     print("Running t-SNE dimensionality reduction (this may take a minute)...")
