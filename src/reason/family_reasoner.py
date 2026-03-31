@@ -17,7 +17,7 @@ def main():
     print("=== SWRL Reasoning: family.owl ===\n")
     
     # Create a temporary ontology for the family domain
-    onto = get_ontology("http://example.org/family.owl")
+    onto = get_ontology("./data/samples/family.owl")
 
     with onto:
         # 1. Define the Schema (Classes and Properties)
