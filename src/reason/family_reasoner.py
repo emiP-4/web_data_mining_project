@@ -1,8 +1,6 @@
 """
 Lab Session: Reasoning (SWRL)
 Course: Web Mining & Semantics
-
-Step 3.1 - Baseline Reasoning on family.owl
 ──────────────────────
 This script uses Owlready2 to demonstrate basic SWRL reasoning
 by inferring the 'hasUncle' relationship.
