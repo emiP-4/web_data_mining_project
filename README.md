@@ -8,7 +8,7 @@ This project is a complete, end-to-end Web Mining and Semantics pipeline. It ext
 
 ---
 
-## 🏗️ Pipeline Architecture
+## Pipeline Architecture
 
 The project is divided into 6 distinct phases:
 
@@ -21,7 +21,7 @@ The project is divided into 6 distinct phases:
 
 ---
 
-## ⚙️ Prerequisites & Installation
+## Prerequisites & Installation
 
 - **Python:** 3.9+ recommended
 - **Ollama:** Required for the RAG pipeline. Install [Ollama](https://ollama.com/) and pull the Llama 3 model (`ollama run llama3:8b`).
@@ -77,7 +77,7 @@ WDM_PROJECT/
 
 ```
 
-## 🚀 Usage Guide
+## Usage Guide
 
 Run the pipeline in the following order to ensure all artifacts are generated correctly.
 
