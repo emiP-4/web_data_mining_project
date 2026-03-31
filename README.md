@@ -3,7 +3,7 @@
 This project is a complete, end-to-end Web Mining and Semantics pipeline. It extracts unstructured data about the Olympic Games from the web, structures it into an RDF Knowledge Graph, aligns it with Linked Open Data (Wikidata), applies logical reasoning (SWRL), trains Knowledge Graph Embeddings (KGE), and enables natural language querying via a local LLM (RAG).
 
 **Course:** Web Mining & Semantics  
-**Author:** Emilie Poupat and Justine SCHUTTERLE
+**Author:** Justine SCHUTTERLE & Emilie POUPAT
 **License:** MIT  
 
 ---
@@ -45,6 +45,37 @@ The project is divided into 6 distinct phases:
    ```
 
 ---
+
+## Project structure
+
+```
+WDM_PROJECT/
+├── notebooks/
+│   ├── Lab_1_Webdatamining.ipynb      
+│   ├── Lab_2_KnowledgeReasoning.ipynb 
+│   └── Lab_3_RAG.ipynb               
+├── src/
+│   └── rag/
+│       └── lab_rag_sparql_gen.py      
+├── data/
+│   └── samples
+│     ├── crawler_output.jsonl 
+│     ├── extracted_knowledge.csv     
+│     └── extracted_relations.csv                 
+├── kg_artifacts/                      
+│   ├── alignment.ttl
+│   ├── expanded_kb.nt           
+│   └── ontology.ttl
+├── kge_results/     
+├── olympics_kge_model/                 
+├── reports/
+│   └── POUPAT_SCHUTTERLE_final_report.pdf
+├── README.md
+├── requirements.txt
+└── .gitignore
+└── LICENSE
+
+```
 
 ## 🚀 Usage Guide
 
